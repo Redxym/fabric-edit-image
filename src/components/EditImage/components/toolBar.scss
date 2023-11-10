@@ -1,0 +1,74 @@
+.draw-btn-group {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  & > div {
+    background: #fafafa;
+    cursor: pointer;
+
+    &:hover {
+      background: #eee;
+    }
+
+    i {
+      display: flex;
+      background-repeat: no-repeat;
+      background-size: 80%;
+      background-position: 50% 50%;
+      height: 30px;
+      width: 30px;
+    }
+
+    .icon-arrow {
+      background-image: url("../assets/icons/arrow.png");
+    }
+
+    .icon-text {
+      background-image: url("../assets/icons/text.png");
+    }
+
+    .icon-circle {
+      background-image: url("../assets/icons/circle.png");
+    }
+
+    .icon-rect {
+      background-image: url("../assets/icons/rect.png");
+      background-size: 75%;
+    }
+
+    .icon-pen {
+      background-image: url("../assets/icons/pen.png");
+      background-size: 80%;
+    }
+
+    .icon-del {
+      background-image: url("../assets/icons/del.png");
+      background-size: 90%;
+    }
+
+    .icon-img {
+      background-image: url("../assets/icons/img.png");
+      background-size: 80%;
+    }
+
+    .icon-save {
+      background-image: url("../assets/icons/save.png");
+      background-size: 80%;
+    }
+
+    .icon-mouse {
+      background-image: url("../assets/icons/mouse.png");
+      background-size: 60%;
+    }
+    .icon-revoke {
+      background-image: url("../assets/icons/revoke.png");
+      background-size: 80%;
+    }
+  }
+
+  .active {
+    background: #eee;
+  }
+}
